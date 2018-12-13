@@ -1,0 +1,23 @@
+export const words = [
+    'kilometer',
+    'boats',
+    'scorcha',
+    'bounding',
+    'queryselector',
+    'sniper',
+    'spanish',
+    'inventing',
+    'developing',
+    'reacting',
+    'maximum',
+    'scoring',
+    'losing',
+    'kardashian',
+    'difficult',
+    'omen',
+    'gaming',
+    'supercell',
+    'wood',
+    'space',
+     'keyword'
+]

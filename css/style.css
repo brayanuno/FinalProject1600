@@ -1,0 +1,192 @@
+ 
+ /* variables */
+:root {
+  --main-bg-color:#333;
+  --main-txt-color: blue; 
+  
+  --main-padding: 15px;
+
+  --main-txt-color: #2B363D;
+  --main-complementary-color:#DDBD85;
+}
+
+
+body {
+  background: var(--main-bg-color);
+}
+
+ /* Nav-bar */
+ .nav-item a:hover {
+  border: none !important;
+}
+.navbar {
+  border-bottom: var(--main-txt-color) 3px solid;
+  opacity: 0.9;
+}
+.navbar img {
+  height: 80px;
+}
+
+#main-nav {
+  background-color: var(--main-txt-color);
+}
+.nav-item a{
+  color: white !important;
+}
+.nav-item a:hover {
+  border-bottom:1px solid white !important;
+}
+.navbar-toggler {
+  font-size: 2rem;
+}
+.fa-bars {
+  color: white;
+  font-size: 3rem;
+}
+
+
+/* home section */
+#home-section {
+  width: 100%;
+  opacity: 0.9;
+  background: url(../img/heroimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.7;
+  min-height: 700px;
+}
+
+#home-section .home-inner {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+
+}
+#overlayContent h3 {
+  color: black;
+  display:none;
+}
+#home-section {
+  display: flex;
+  align-items:center;
+}
+
+#home-section .home-inner h1 {
+  color: white;
+  font-weight: bold;
+  text-shadow: 5px 5px #333;
+  font-size:2.7rem;
+  opacity: 1 !important;
+  
+}
+#home-section .home-inner h3{
+  color: white;
+  /* font-weight: bold; */
+  text-shadow: 4px 4px #333;
+  font-size:3rem;
+  opacity: 1;
+}
+
+/* About-me */
+
+#About-me {
+  color:black;
+  background: white;
+}
+button {
+  background: var(--main-txt-color) !important;
+}
+/* Explore Section */
+.progress-bar {
+  background: var(--main-txt-color);
+}
+
+/* creative Section */
+
+#create-head-section {
+  background: var(--main-txt-color);
+  color: white;
+}
+
+/* Game Section */
+
+button {
+  background: red;
+
+}
+button a {
+  color: white;
+}
+#wordUpdate {
+  padding: 1rem;
+  background: red;
+}
+#screenMessage {
+  color: red;
+}
+
+#levelName, #difficulty , #seconds {
+    color: red;
+}
+#create-head-section h2 {
+  font-size: 1.2rem;
+}
+h2#titleGame {
+  font-size: 3.5rem;
+}
+/* pokemon section */
+#pokemon-section{
+  opacity: 1;
+}
+#pokemon-section {
+  background: white;
+}
+
+/* App-section */
+#App-section {
+  background: var(--main-txt-color);
+  color: white;
+}
+/* Main Footer*/
+#main-footer {
+  color:var(--main-txt-color);
+  background: white;
+}
+#main-footer i {
+  margin-right: 1rem;
+  font-size: 2rem;
+  color: var(--main-txt-color);
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  #home-section .home-inner h1 {
+    font-size: 3.8rem !important;
+  }
+  #overlayContent h3 {
+    display:block;
+  }
+  #home-section {
+    min-height: 750px;
+  }
+  #inputWord {
+    padding: 1rem;
+  }
+  #wordUpdate  {
+    padding: 1rem;
+  }
+}
+ /* Large devices (desktops, 992px and up */
+@media (min-width: 992px) { 
+  #home-section .home-inner h1 {
+    font-size: 4.3rem ;
+  }
+ }
+
+/* Extra large devices (large desktops, 1200px and up */
+@media (min-width: 1200px) { 
+  #home-section {
+    opacity: 0.8;
+  }
+ }
